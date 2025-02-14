@@ -27,7 +27,7 @@ export default function Projects() {
         </div>
         <div className="d-inline-block">
           <Cards
-            image="images/Kanbas/Kanbas.png"
+            image="images/Kanbas/kanbas.png"
             title="Kanbas - Canvas Clone"
             body=""
             tags={["React", "Node.js", "Express.js", "MongoDB", "Redux.js", "Axios", "TypeScript", "HTML", "CSS"]}
