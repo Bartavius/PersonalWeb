@@ -29,7 +29,7 @@ export default function Projects() {
           <Cards
             image="images/Kanbas/kanbas.png"
             title="Kanbas - Canvas Clone"
-            body=""
+            body="The server is hosted for free on render. Please wait a moment for the server to load."
             tags={["React", "Node.js", "Express.js", "MongoDB", "Redux.js", "Axios", "TypeScript", "HTML", "CSS"]}
             websiteLink="https://kanbas-mern.netlify.app/"
             githubLink="https://github.com/Bartavius/Kanbas"

@@ -19,7 +19,7 @@ export default function Cards({
     <div className="my-card blur-gradient d-inline-block border-accent1 card-container d-flex flex-column">
       <div className="row flex-grow-0">
         <div className="col">
-          <img src={image} alt="" className="image img-fluid" draggable="false" />
+          <img src={image} alt={title} className="image img-fluid" draggable="false" />
         </div>
       </div>
 
