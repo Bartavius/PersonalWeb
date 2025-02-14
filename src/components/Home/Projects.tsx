@@ -5,7 +5,7 @@ export default function Projects() {
     <div>
       <h1>Projects</h1>
       <div className="project-cards container d-flex flex-wrap justify-content-center">
-        <div className="d-inline-block">
+        <div className="d-inline-block block">
           <Cards
             image="images/HighCard/HighCard.png"
             title="High Card"
@@ -15,7 +15,7 @@ export default function Projects() {
             githubLink="https://github.com/williampan22/finhacks2025"
           />
         </div>
-        <div className="d-inline-block">
+        <div className="d-inline-block block">
           <Cards
             image="images/JAZA/JAZA.png"
             title="J.A.Z.A - Just A Zip Away"
@@ -25,7 +25,7 @@ export default function Projects() {
             githubLink="https://github.com/Bartavius/JAZA-Just-A-Zip-Away"
           />
         </div>
-        <div className="d-inline-block">
+        <div className="d-inline-block block">
           <Cards
             image="images/Kanbas/kanbas.png"
             title="Kanbas - Canvas Clone"

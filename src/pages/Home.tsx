@@ -8,14 +8,9 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <motion.div
-      initial={{ opacity: 0, x: 100 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1, ease: "easeOut" }}
-    >
       <div className="home">
         <section className="mb-5 mt-5">
-          <div className="mt-5 col-12 col-md-6 d-flex flex-column justify-content-center align-items-end info-box pe-5 pt-2 pb-2">
+          <div className="mt-5 col-12 col-md-6 d-flex flex-column justify-content-center align-items-end info-box pe-5 pt-2 pb-2 block">
             <h1 className="name">Jirath "Bart"</h1>
             <h1 className="name">Lojanarungsiri</h1>
             <h2 className="text-secondary">Full-Stack Web Developer</h2>
@@ -66,22 +61,22 @@ export default function Home() {
         </section>
 
         <hr />
-        <section className="my-container pt-5">
+        <div className="my-container pt-5">
           <Skills />
-        </section>
+        </div>
 
         <hr />
-        <section className="my-container">
+        <section className="my-container block">
           <Projects />
         </section>
 
         <hr />
-        <section className="my-container">
+        <section className="my-container block">
           <Education />
         </section>
         <hr />
 
-<section className="my-container">
+<section className="my-container block">
 
         <a href="/about">
           <button className="button-secondary">About me</button>
@@ -136,6 +131,5 @@ export default function Home() {
           </ol>
         </div></section>
       </div>
-    </motion.div>
   );
 }
